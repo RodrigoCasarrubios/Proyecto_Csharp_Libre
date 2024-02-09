@@ -1,0 +1,25 @@
+﻿<Window x:Class="Proyecto_Csharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Csharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        ///Le ponemos un margende  10
+        
+        <StackPanel Margin="10">
+            ///Es un Label que pondra Escribe:
+            <TextBlock Text="Valor1:"/>
+            ///El valor txtValor1 es el lo que le vas a introducir
+            <TextBox x:Name="txtValor1" Margin="0,5,0,10"/>
+            ///Es un Label que pondra Despidete:
+            <TextBlock Text="Valor2:"/>
+            ///El valor txtValor1 es el lo que le vas a introducir
+            <TextBox x:Name="txtValor2" Margin="0,5,0,10"/>
+            ///Es un boton en el que guardara los valores
+            <Button Content="Guardar Valores" Click="GuardarValores_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
