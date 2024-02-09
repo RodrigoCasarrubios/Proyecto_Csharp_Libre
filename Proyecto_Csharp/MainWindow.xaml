@@ -7,18 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        ///Le ponemos un margende  10
-        
+<!--
+        Le ponemos un margende  10
+        -->
+
         <StackPanel Margin="10">
-            ///Es un Label que pondra Escribe:
+             <!--
+                Es un Label que pondra Escribe:
+             -->
             <TextBlock Text="Valor1:"/>
-            ///El valor txtValor1 es el lo que le vas a introducir
+                <!--
+                El valor txtValor1 es el lo que le vas a introducir
+                -->
             <TextBox x:Name="txtValor1" Margin="0,5,0,10"/>
-            ///Es un Label que pondra Despidete:
+             <!--
+                Es un Label que pondra Despidete:
+             -->
             <TextBlock Text="Valor2:"/>
-            ///El valor txtValor1 es el lo que le vas a introducir
+            <!--
+                El valor txtValor1 es el lo que le vas a introducir
+             -->
             <TextBox x:Name="txtValor2" Margin="0,5,0,10"/>
-            ///Es un boton en el que guardara los valores
+             <!--
+                Es un boton en el que guardara los valores
+             -->
             <Button Content="Guardar Valores" Click="GuardarValores_Click"/>
         </StackPanel>
     </Grid>
